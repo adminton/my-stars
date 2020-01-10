@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/information/information",
+    "pages/search/search",
+    "pages/go/go",
+    "pages/account/account",
+    "pages/user/user",
+    "pages/contact/contact",
+    "pages/more/more",
+    "pages/about/about"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "星启应援",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "backgroundColor": "#EDEDED"
+  },
+  "tabBar": {
+    "selectedColor": "#04BE02",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/tabs/home.png",
+        "selectedIconPath": "/tabs/home1.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "资讯",
+        "iconPath": "/tabs/inform.png",
+        "selectedIconPath": "/tabs/inform1.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/tabs/profiles.png",
+        "selectedIconPath": "/tabs/profiles1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

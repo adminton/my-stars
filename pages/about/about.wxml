@@ -1,0 +1,18 @@
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+          <view class="weui-cell__bd">版本号</view>
+          <view class="weui-cell__ft">[获取]</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+          <view class="weui-cell__bd">QQ群</view>
+          <view class="weui-cell__ft">123456789</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+          <view class="weui-cell__bd">更新日志</view>
+          <view class="weui-cell__ft">[获取]</view>
+      </view>
+    </view>

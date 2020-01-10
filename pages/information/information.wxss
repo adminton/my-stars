@@ -1,0 +1,4 @@
+/* pages/index/index.wxss */
+.grids__bd{
+  background-color: #ffff;
+}

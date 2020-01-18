@@ -1,18 +1,30 @@
-    <view class="weui-cells weui-cells_after-title">
+<view class="logo"><image class="logo_size" src="/images/logo.png"></image></view>
+
+ <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
           <view class="weui-cell__bd">版本号</view>
-          <view class="weui-cell__ft">[获取]</view>
+          <view class="weui-cell__ft">0.1.7</view>
       </view>
     </view>
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
           <view class="weui-cell__bd">QQ群</view>
-          <view class="weui-cell__ft">123456789</view>
+          <view class="weui-cell__ft">427094820</view>
       </view>
     </view>
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
           <view class="weui-cell__bd">更新日志</view>
-          <view class="weui-cell__ft">[获取]</view>
+          <view class="weui-cell__ft">[暂无]</view>
       </view>
     </view>
+
+    <view class="weui-cells__title"> </view>
+  <view class="weui-footer">
+            <view class="weui-footer__links">
+                <navigator url="" class="weui-footer__link">星启科技</navigator>
+                <!-- 微信不允许未认证的外部web -->
+                <navigator url="" class="weui-footer__link">技术部</navigator>
+            </view>
+            <view class="weui-footer__text">Copyright © 2019-2020 mystar.xyz</view>
+        </view>

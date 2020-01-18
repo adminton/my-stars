@@ -1,14 +1,25 @@
 <view class="page">
+
+  <view class="weui-flex">
+  <view class="weui-flex__item">
+  
+  <button bindtap="onTapSearch"><image class="button_icon" src="/images/icon/search.png"></image>搜索项目</button>
+  </view>
+  <view class="weui-flex__item">
+  <button plain="true" bindtap="onTapGo">发起项目</button>
+  </view>
+  </view>
+
   <view class="weui-flex">
       <view class="weui-flex__item">
       <navigator url="/pages/search/search" class="placeholder">搜索活动</navigator></view>
       <view class="weui-flex__item">
       <navigator url="/pages/go/go" class="placeholder">发起活动</navigator></view>
     </view>
-
+    <view class="weui-cells__title"> </view>
     <view class="weui-form-preview">
             <view class="weui-form-preview__hd">
-                <view class="weui-form-preview__label">应援进度</view>
+                <view class="weui-form-preview__label">项目进度</view>
                 <view class="weui-form-preview__value_in-hd">====-----</view>
             </view>
             <view class="weui-form-preview__bd">
@@ -22,12 +33,61 @@
                 </view>
                 <view class="weui-form-preview__item">
                     <view class="weui-form-preview__label">活动简介</view>
-                    <view class="weui-form-preview__value">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</view>
+                    <view class="weui-form-preview__value">【暂无】</view>
                 </view>
             </view>
             <view class="weui-form-preview__ft">
-                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active">不看？</navigator>
-                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">详情</navigator>
+                <navigator url="/pages/details/details" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">详情</navigator>
+            </view>
+        </view>
+
+        <view class="weui-cells__title"> </view>
+         <view class="weui-form-preview">
+            <view class="weui-form-preview__hd">
+                <view class="weui-form-preview__label">项目进度</view>
+                <view class="weui-form-preview__value_in-hd">进度数据</view>
+            </view>
+            <view class="weui-form-preview__bd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">活动名称</view>
+                    <view class="weui-form-preview__value">名称数据</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">时间地点</view>
+                    <view class="weui-form-preview__value">时间地点数据</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">活动简介</view>
+                    <view class="weui-form-preview__value">简介数据</view>
+                </view>
+            </view>
+            <view class="weui-form-preview__ft">
+                <navigator url="/pages/details/details" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">详情</navigator>
+            </view>
+        </view>
+
+         <view class="weui-cells__title"> </view>
+         <view class="weui-form-preview">
+            <view class="weui-form-preview__hd">
+                <view class="weui-form-preview__label">项目进度</view>
+                <view class="weui-form-preview__value_in-hd">进度数据</view>
+            </view>
+            <view class="weui-form-preview__bd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">活动名称</view>
+                    <view class="weui-form-preview__value">名称数据</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">时间地点</view>
+                    <view class="weui-form-preview__value">时间地点数据</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">活动简介</view>
+                    <view class="weui-form-preview__value">简介数据</view>
+                </view>
+            </view>
+            <view class="weui-form-preview__ft">
+                <navigator url="/pages/details/details" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">详情</navigator>
             </view>
         </view>
 </view>

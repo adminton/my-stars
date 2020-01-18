@@ -1,15 +1,21 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/profile/profile",
+      "pages/search/search",
+      "pages/go/go",
+      "pages/details/details",
+    
     "pages/information/information",
-    "pages/search/search",
-    "pages/go/go",
-    "pages/account/account",
-    "pages/user/user",
-    "pages/contact/contact",
-    "pages/more/more",
-    "pages/about/about"
+      "pages/read/read",
+    "pages/profile/profile",
+      "pages/account/account",
+      "pages/user/user",
+      "pages/contact/contact",
+      "pages/more/more",
+        "pages/help/help",
+        "pages/clause/clause",
+        "pages/feedback/feedback",
+      "pages/about/about"
   ],
   "permission": {
     "scope.userLocation": {
@@ -20,7 +26,9 @@
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "星启应援",
     "navigationBarBackgroundColor": "#EDEDED",
-    "backgroundColor": "#EDEDED"
+    "backgroundColor": "#EDEDED",
+    "enablePullDownRefresh":true,
+    "backgroundTextstyle":"light"
   },
   "tabBar": {
     "selectedColor": "#04BE02",

@@ -117,7 +117,7 @@
         </checkbox-group>
 
         <view class="weui-btn-area">
-            <button class="weui-btn" type="primary" bindtap="showTopTips">确定发布</button>
+            <button class="weui-btn" type="primary" bindtap="showTopTips">提交审核</button>
         </view>
     </view>
 </view>

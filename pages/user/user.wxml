@@ -1,2 +1,31 @@
 <!--pages/user/user.wxml-->
-<text>【building】</text>
+<view class="weui-cells__title">基本信息</view>
+        <view class="weui-cells weui-cells_after-title">
+            <navigator url=" " class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">头像</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">【头像】</view>
+            </navigator>
+            <navigator url=" " class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">昵称</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">{{userInfo.nickName}}</view>
+            </navigator>
+            <navigator url=" " class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">性别</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">{{userInfo.gender}}</view>
+            </navigator>
+            <navigator url=" " class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">地区</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">{{userInfo.province}}{{userInfo.city}}</view>
+            </navigator>
+</view>
+<view class="weui-cells__title">更多信息</view>
+        <view class="weui-cells weui-cells_after-title">
+            <navigator url=" " class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">签名</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">【待绑定】</view>
+            </navigator>
+            <navigator url=" " class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">偶像资料</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">【待绑定】</view>
+            </navigator>
+</view>

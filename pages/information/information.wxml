@@ -4,7 +4,7 @@
         <view class="weui-panel weui-panel_access">
             <view class="weui-panel__hd">最新资讯</view>
             <view class="weui-panel__bd">
-                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                <navigator url="/pages/read/read" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                         <image class="weui-media-box__thumb" src="/images/zjn.png" />
                     </view>
@@ -13,33 +13,44 @@
                         <view class="weui-media-box__desc">网剧《唐人街探案》口碑爆棚，张钧甯演技超带感，太惊艳了！</view>
                     </view>
                 </navigator>
-                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                <navigator url="/pages/read/read" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
-                        <image class="weui-media-box__thumb" src="/images/zjn.png" />
+                        <image class="weui-media-box__thumb" src=" " />
                     </view>
                     <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
-                        <view class="weui-media-box__title">张钧甯演技惊艳</view>
-                        <view class="weui-media-box__desc">网剧《唐人街探案》口碑爆棚，张钧甯演技超带感，太惊艳了！</view>
+                        <view class="weui-media-box__title">标题数据</view>
+                        <view class="weui-media-box__desc">摘要数据</view>
+                    </view>
+                </navigator>
+                <navigator url="/pages/read/read" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src=" " />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">标题数据</view>
+                        <view class="weui-media-box__desc">摘要数据</view>
+                    </view>
+                </navigator>
+                <navigator url="/pages/read/read" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src=" " />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">标题数据</view>
+                        <view class="weui-media-box__desc">摘要数据</view>
+                    </view>
+                </navigator>
+                <navigator url="/pages/read/read" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src=" " />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">标题数据</view>
+                        <view class="weui-media-box__desc">摘要数据</view>
                     </view>
                 </navigator>
             </view>
-            <view class="weui-panel__ft">
-                <view class="weui-cell weui-cell_access weui-cell_link">
-                    <view class="weui-cell__bd">查看更多</view>
-                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-                </view>
-            </view>
-        </view>
-    </view>
-
-    <view class="grids__bd">
-        <view class="weui-grids">
-            <block wx:for="{{grids}}" wx:key="*this">
-                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
-                    <image class="weui-grid__icon" src="/images/cart.png" />
-                    <view class="weui-grid__label">【goods】</view>
-                </navigator>
-            </block>
+  
         </view>
     </view>
 </view>

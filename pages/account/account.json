@@ -1,6 +1,5 @@
 {
   "usingComponents": {},
   "navigationBarTitleText": "账户余额",
-  "enablePullDownRefresh": true,
-  "backgroundColor": "#000"
+  "enablePullDownRefresh": true
 }
